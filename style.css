@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .header_top {
@@ -52,9 +52,9 @@ body {
   left: 0;
   top: 108%;
   -webkit-transform: translateY(30px);
-          transform: translateY(30px);
-  -webkit-transition: .5s;
-  transition: .5s;
+  transform: translateY(30px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   visibility: hidden;
   opacity: 0;
   z-index: 99;
@@ -75,7 +75,7 @@ body {
   visibility: visible;
   opacity: 1;
   -webkit-transform: translateX(0);
-          transform: translateX(0);
+  transform: translateX(0);
 }
 
 .header_menu ul a {
@@ -87,15 +87,16 @@ body {
   letter-spacing: 1px;
   line-height: 60px;
   padding: 24px 0;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .header_menu ul a:hover {
   color: #0f92ea;
 }
 
-.carousel-control-next, .carousel-control-prev {
+.carousel-control-next,
+.carousel-control-prev {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -104,29 +105,29 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 15%;
   color: #fff;
   text-align: center;
-  opacity: .5;
-  -webkit-transition: opacity .15s ease;
-  transition: opacity .15s ease;
+  opacity: 0.5;
+  -webkit-transition: opacity 0.15s ease;
+  transition: opacity 0.15s ease;
   background: transparent;
   border: none;
 }
 
 .carousel {
   position: relative;
-  z-index: -1;
+ 
 }
 
 .banner_content {
   -webkit-transform: translateY(-75%);
-          transform: translateY(-75%);
+  transform: translateY(-75%);
   text-align: left;
 }
 
@@ -145,8 +146,8 @@ body {
 .banner_content .btn {
   font-weight: 300;
   padding: 8px 13px;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .banner_content .btn:hover {
@@ -155,13 +156,14 @@ body {
 }
 
 .cards_section {
-  margin-bottom: 100px;
-  margin-top: -56px;
+	margin-bottom: 100px;
+	margin-top: -56px;
+	position: relative;
 }
 
 .cards_section .cardes {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 25px 20px;
 }
 
@@ -292,8 +294,8 @@ form {
 .icons_form .f_icons h4 {
   text-transform: uppercase;
   font-size: 18px;
-  -webkit-transition: .3s;
-  transition: .3s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   font-weight: bold;
 }
 
@@ -362,7 +364,7 @@ form {
   border-width: 6px 0 6px 18px;
   border-color: transparent transparent transparent #e2e2e2;
   -webkit-transform: rotate(291deg);
-          transform: rotate(291deg);
+  transform: rotate(291deg);
 }
 
 .E_center h4 {
@@ -423,7 +425,7 @@ form {
   margin-top: 5px;
   display: inline-block;
   font-weight: bold;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .event_icon i {
@@ -485,8 +487,8 @@ form {
   text-align: center;
   border-radius: 50%;
   height: 205px;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .contentss:hover {
@@ -543,23 +545,23 @@ form {
 .teams:hover .inner_img {
   visibility: visible;
   opacity: 1;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .hover_content {
-  -webkit-transition: .7s;
-  transition: .7s;
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
 }
 
 .inner_img:hover .hover_content {
   -webkit-transform: translateY(100px);
-          transform: translateY(100px);
+  transform: translateY(100px);
 }
 
 .hover_content ul li i {
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
 .hover_content ul li i:hover {
@@ -602,7 +604,7 @@ form {
 .before_quate::before {
   content: "\f10d";
   position: absolute;
-  font-family: 'Font Awesome 5 free';
+  font-family: "Font Awesome 5 free";
   font-weight: 600;
   left: 63px;
   width: 60px;
@@ -631,18 +633,18 @@ form {
 
 .card-img-top:hover {
   -webkit-transform: scale(1.3);
-          transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .cards_hover {
   overflow: hidden;
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .card-img-top {
-  -webkit-transition: .5s;
-  transition: .5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
   position: relative;
 }
 
